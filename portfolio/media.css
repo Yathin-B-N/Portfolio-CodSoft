@@ -1,0 +1,102 @@
+@media screen and (max-width:750px) {
+
+    #desktop-nav
+    {
+        display: none;
+
+    }
+    .line
+    {
+        display: none;
+    }
+    #hamburger-nav
+    {
+        display: flex;
+    }
+    .line2
+    {
+        display: flex;
+    }
+
+    .imgbox
+    {
+        display: none;
+    }
+.intro{
+    display: none;
+}
+.ali{
+    display: none;
+}
+.imgboxm
+{
+    display: flex;
+}
+.introm{
+    display: flex;
+}
+
+.about
+{
+    display:none;
+}
+.hamburger-icon span
+{
+    display: flex;
+}
+.about{display: none;}
+#about{display: none;}
+.aboutinfo{display: none;}
+.backimg{display: none;}
+#myimg{display: none;}
+.cvbtn{display: none;}
+.cvbtn::active{display: none;}
+.pinkbox{display: none;}
+.para{display: none;}
+#bulb{display: none;}
+
+.backimgm{display:flex;}
+#myimgm{display: flex;}
+.cvbtnm{display: flex;}
+.whiteboxm{display: flex;}
+.pinkboxm{display: flex;}
+.param{display: flex;}
+#bulbm{display: flex;}
+#aboutm{display: flex;}
+.html,.css,.javascript,.mysql,.Mong,.Djan,.java,.C,.python,.box2{display: none;}
+.quali,.map,.skills,.frontend,.fe,.be,.backend,.pl,.pgmla{display: none;}
+#a,#icon1,#icon2,#icon3{display: none;}
+
+
+.qualim,.mapm,.skillsm,.frontendm,.fem,.bem,.backendm,.plm,.pgmlam,.skim{display: flex;}
+.htmlm,.cssm,.javascriptm,.mysqlm,.Mongm,.Djanm,.javam,.Cm,.pythonm{display: flex;}
+.line,.sch,.pu,.bt.ball1,.ball2,.ball3{display: none;}
+.linem,.schm,.pum,.btm,.ball1m,.ball2m,.ball3m,.edu{display:flex;}
+.projects,#projects,.contacts,.portfolio__container {display:none;}
+#projectsm,.wadm,.photo1m.projectmob,.portfolio__container,.contm{display: flex;}
+
+}
+
+@media screen and (min-width:220px){
+    .hamburger-icon{
+        display: contents;
+        color: white;
+    }
+
+    .menu-linksm{
+        display: none;
+    }
+
+    .open{
+        display: block;
+        width: 100%;
+        margin-top:30%;
+        padding: 10px 10px 10px 10px;
+        column-gap: 2rem;
+        text-align: center;
+        list-style: none;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+}
+
